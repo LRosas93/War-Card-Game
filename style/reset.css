@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: aqua;
+}
+
+header {
+    border: 1px solid red;
+    text-align: center;
+}
+
+.title {
+    display: inline-block;
+    margin: 10px auto;
+    position: relative;
+    font-size: 70px;
+    color: red;
+    border: 1px solid black;
+}
+
+.header2 {
+    display: inline-block;
+    margin: 10px auto;
+    position: relative;
+    color: blue;
+    font-size: 70px;
+    border: 1px solid black;
+}
+
+.header3 {
+    display: inline-block;
+    margin: 10px auto;
+    position: relative;
+    color: green;
+    font-size: 70px;
+    border: 1px solid black;
+}
+
+.header4 {
+    display: inline-block;
+    margin: 10px auto;
+    position: relative;
+    color: yellow;
+    font-size: 70px;
+    border: 1px solid black;
+}
+
+body {
+   text-align: center; 
+}
+

@@ -1,0 +1,76 @@
+body {
+    background-color: black;
+}
+
+header {
+    background-color: black;
+    text-align: center;
+}
+
+.title {
+    display: inline-block;
+    margin: 10px auto;
+    position: relative;
+    font-family: 'Times New Roman', Times, Georgia, serif; 
+    font-size: 60px;
+    color: white;
+}
+
+.description-wrap {
+    display: inline-block;
+    background-color: black;
+    margin: 50px 300px;
+    color: white;
+    text-align: justify;
+    width: 700px;
+}
+
+.description-title {
+    text-align: center;
+}
+
+.left-cont {
+    display: inline-block;
+    position: left;
+    background-color: white;
+    color: black;
+}
+
+.right-cont {
+    display: inline-block;
+    position: right;
+    background-color: white;
+    color: black;
+}
+
+.game-frame {
+    display: inline-block;
+    margin: 50px 350px;
+    width: 50%;
+    height: 700px;
+    background-color: #D2122E;
+    border: 1px solid red;
+}
+
+.game-frame h3 {
+    margin: 0;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+
+p {
+    background-color: black;
+    color: white;
+}
+
+.deck {
+    display: inline-block;
+    position: center;
+}
+
+.deck p {
+    display: inline-block;
+    width: 70px;
+    height: 100px;
+}
