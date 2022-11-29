@@ -9,39 +9,24 @@ header {
 
 .title {
     display: inline-block;
-    margin: 10px auto;
-    position: relative;
+    text-align: center;
     font-family: 'Times New Roman', Times, Georgia, serif; 
     font-size: 60px;
     color: white;
-}
-
-.description-wrap {
-    display: inline-block;
-    background-color: black;
-    margin: 50px 300px;
-    color: white;
-    text-align: justify;
-    width: 700px;
 }
 
 .description-title {
     text-align: center;
 }
 
-.left-cont {
+.description-wrap {
     display: inline-block;
-    position: left;
-    background-color: white;
-    color: black;
+    background-color: black;
+    color: white;
+    margin: 50px 360px;
+    width: 700px;
 }
 
-.right-cont {
-    display: inline-block;
-    position: right;
-    background-color: white;
-    color: black;
-}
 
 .game-frame {
     display: inline-block;
@@ -49,7 +34,6 @@ header {
     width: 50%;
     height: 700px;
     background-color: #D2122E;
-    border: 1px solid red;
 }
 
 .game-frame h3 {
@@ -64,13 +48,3 @@ p {
     color: white;
 }
 
-.deck {
-    display: inline-block;
-    position: center;
-}
-
-.deck p {
-    display: inline-block;
-    width: 70px;
-    height: 100px;
-}
